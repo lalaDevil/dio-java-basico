@@ -12,12 +12,12 @@ public class TiposVariaveis {
         short numeroCurto2 = (short) numeroNormal;
         // método chamado cast
 
-        //Variável
+        //Variável(consegue ser mudado)
         int numero = 1;
         numero = 2;
         System.out.println(numero);
 
-        //Constante
+        //Constante(não pode ser mudado)
         final int NUMERO_CONSTANTE = 3;
         //por convenção variável deverá ser escrita em caixa alta
         System.out.println(NUMERO_CONSTANTE);
