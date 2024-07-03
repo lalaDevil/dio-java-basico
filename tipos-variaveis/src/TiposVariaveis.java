@@ -1,5 +1,25 @@
 public class TiposVariaveis {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        double salarioMinimo = 2500.30; //o "." indica o decimal
+        // ERRADO
+        //short numeroCurto = 1;
+        //int numeroNormal = numeroCurto;
+        //short numeroCurto2 = numeroNormal;
+
+        // CERTO
+        short numeroCurto = 1;
+        int numeroNormal = numeroCurto;
+        short numeroCurto2 = (short) numeroNormal;
+        // método chamado cast
+
+        //Variável
+        int numero = 1;
+        numero = 2;
+        System.out.println(numero);
+
+        //Constante
+        final int NUMERO_CONSTANTE = 3;
+        //por convenção variável deverá ser escrita em caixa alta
+        System.out.println(NUMERO_CONSTANTE);
     }
 }
