@@ -1,5 +1,5 @@
 public class TiposVariaveis {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args){
         double salarioMinimo = 2500.30; //o "." indica o decimal
         // ERRADO
         //short numeroCurto = 1;
