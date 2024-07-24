@@ -25,3 +25,5 @@ replay_pid*
 anatomia-classe/.vscode/settings.json
 tipos-variaveis/.vscode/settings.json
 metodos/.vscode/settings.json
+terminal-e-argumentos/.vscode/settings.json
+terminal-e-argumentos/.vscode/launch.json
